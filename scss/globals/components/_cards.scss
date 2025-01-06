@@ -1,7 +1,7 @@
 .card {
   background-color: var(--white);
   border-radius: 15px;
-  padding: 2.5rem;
+  padding: 2.5rem 2.5rem 0 2.5rem;
   z-index: 1;
   margin: 0 1.5rem;
   .card-title {
@@ -36,7 +36,7 @@
 .panel {
   display: none;
   color: var(--purple-100);
-  padding: 1rem 0;
+  padding: 0 0 1rem 0;
 }
 
 .panel:nth-of-type(1) {
