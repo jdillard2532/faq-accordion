@@ -140,7 +140,7 @@ textarea:not([rows]) {
   color: var(--pink-200);
 }
 .card .card-content img {
-  max-width: 24.38px;
+  max-width: 30px;
 }
 
 .panel {
