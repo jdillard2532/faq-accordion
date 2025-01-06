@@ -1,0 +1,33 @@
+main {
+  position: relative;
+  height: 100vh;
+  background: url(../../assets/images/background-pattern-desktop.svg) no-repeat;
+  background-size: contain;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 37.5rem;
+  margin: 0 auto;
+  padding-top: 13rem;
+}
+
+//1000px
+@media (max-width: 62.5rem) {
+  main {
+    .container {
+      padding-top: 4rem;
+    }
+  }
+}
+
+//375pxx
+@media (max-width: 23.44rem) {
+  main {
+    background: url(../../assets/images/background-pattern-mobile.svg) no-repeat;
+    .container {
+      padding-top: 6rem;
+    }
+  }
+}
